@@ -1,1 +1,1 @@
-Hola, es momento de descansar
+console.log("Hola, es momento de descansar")
