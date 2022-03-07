@@ -64,3 +64,26 @@ console.log("el total de todos los precios compactados es de " + PreciosCompacta
 
 let precioTotalDeProductosBaratos = productos.filter(esBarato).map(({precio}) => precio).reduce(compactarPrecios)
 console.log(precioTotalDeProductosBaratos)
+
+
+function fraseConComillas (string) {  
+   return string.toUpperCase()} ;
+
+console.log(fraseConComillas("Alan dijo, \'Debes estudiar un poco mas'\. "))
+
+
+
+// Code	Output
+// \'	single quote
+// \"	double quote
+// \\	backslash
+// \n	newline
+// \r	carriage return
+// \t	tab
+// \b	word boundary
+// \f	form feed
+
+
+let fraseEnLineas1 = "FirstLine\n\t\\SecondLine\nThirdline"
+let fraseEnLineas2 = "FirstLine\n\t\"SecondLine\"\nThirdline"
+console.log(fraseEnLineas2)
